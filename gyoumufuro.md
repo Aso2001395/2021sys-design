@@ -1,5 +1,5 @@
-````uml
+```uml
 @startuml
-alice -> bob : responce
+alice --> bob : responce
 @enduml
-````
+```
