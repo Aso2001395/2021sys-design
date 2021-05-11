@@ -1,4 +1,3 @@
-```uml
 @startuml
 ユーザ -> webサーバ : ログイン
 webサーバ -> DBサーバ : ログイン照会
@@ -15,6 +14,7 @@ webサーバ -> DBサーバ : カート更新
 DBサーバ -> DBサーバ : カート更新処理
 DBサーバ -> webサーバ : 結果
 webサーバ -> ユーザ : 表示
+ユーザ -> webサーバ : カートclick
+webサーバ -> ユーザ : 表示
 deactivate ユーザ
 @enduml
-```
