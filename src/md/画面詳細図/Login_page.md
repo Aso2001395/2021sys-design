@@ -4,7 +4,7 @@
 [プロトタイプ](https://www.figma.com/file/IhY27LOwgtwBdPqiLC5lNT/gamensyousai?node-id=2%3A0)
 *****
 
-<img src="../img/Member registration_page.png" width="500">
+<img src="../img/Login_page.png" width="500">
 
 *****
 補足：対応DBの列はDB設計後、〇を対応するテーブル・カラム名に差し替えること
