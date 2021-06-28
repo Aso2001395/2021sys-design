@@ -5,9 +5,9 @@
 *****
 
 <img src="../img/Details_page.png" width="300">
-<img src="../img/Details1_page.png" width="300">
-<img src="../img/Details2_page.png" width="300">
-<img src="../img/Details3_page.png" width="300">
+<img src="../img/Details_page-1.png" width="300">
+<img src="../img/Details_page-2.png" width="300">
+<img src="../img/Details_page-3.png" width="300">
 
 *****
 補足：対応DBの列はDB設計後、〇を対応するテーブル・カラム名に差し替えること
