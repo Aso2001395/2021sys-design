@@ -12,7 +12,7 @@
 |テーブル名|項目名|型|PK|NN|FK|
 |---------|------|--|--|--|--|
 |d_purchase_detail|detail_id|bigint(20)|〇|〇|-|
-|d_purchase_detail|order_id|bigint(20)|〇|〇|-|
+|d_purchase_detail|order_id|bigint(20)|〇|〇|〇|
 |d_purchase_detail|item_code|int(11)|-|〇|-|
 |d_purchase_detail|price|int(11)|-|〇|-|
 |d_purchase_detail|num|int(11)|-|〇|-|
@@ -22,7 +22,7 @@
 |テーブル名|項目名|型|PK|NN|FK|
 |---------|------|--|--|--|--|
 |m_customers|customer_code|varchar(50)|〇|〇|-|
-|m_customers|pass|varchar(50)|-|〇|-|
+|m_customers|pass|varchar(50)|〇|〇|〇|
 |m_customers|name|varchar(20)|-|〇|-|
 |m_customers|address|varchar(100)|-|〇|-|
 |m_customers|tel|varchar(20)|-|〇|-|
