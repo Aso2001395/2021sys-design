@@ -60,9 +60,9 @@ entity "カテゴリマスタ" as category <m_category> <<M,MASTER_MARK_COLOR>> 
         reg_date
 }
 
-customer ||-o{ order
-order ||-o{ order_detail
-order_detail ||-o| item
+customer |o-o{ order
+order ||-|{ order_detail
+order_detail }-|| item
 item ||-o{ category
 
 @enduml
