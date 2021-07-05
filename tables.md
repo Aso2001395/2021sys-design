@@ -10,6 +10,8 @@ skinparam class {
     ArrowColor Black
 }
 
+package "ECサイト" as target_system {
+
 entity "顧客マスタ" as customer {
         + customer_code [PK]
         --
