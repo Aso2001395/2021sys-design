@@ -12,7 +12,7 @@ skinparam class {
 
 
 
-    entity "顧客マスタ" as customer <m_customers> <<M,MASTER_MARK_COLOR>> {
+    entity "顧客マスタ" as customer {
         + customer_code [PK]
         --
         pass
