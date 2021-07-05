@@ -26,18 +26,6 @@ package "ECサイト" as target_system {
         del_flag
         reg_date
     }
-
-    entity "購入テーブル" as customer <m_customers> <<M,MASTER_MARK_COLOR>> {
-        + customer_code [PK]
-        --
-        pass
-        name
-        address
-        tel
-        mail
-        del_flag
-        reg_date
-    }
     
     entity "顧客マスタ" as customer <d_purchase> <<T,TRANSACTION_MARK_COLOR>> {
         + order_id [PK]
@@ -47,28 +35,5 @@ package "ECサイト" as target_system {
         total_price
     }
     
-    entity "顧客マスタ" as customer <m_customers> <<M,MASTER_MARK_COLOR>> {
-        + customer_code [PK]
-        --
-        pass
-        name
-        address
-        tel
-        mail
-        del_flag
-        reg_date
-    }
-    
-    entity "顧客マスタ" as customer <m_customers> <<M,MASTER_MARK_COLOR>> {
-        + customer_code [PK]
-        --
-        pass
-        name
-        address
-        tel
-        mail
-        del_flag
-        reg_date
-    }
 @enduml
 ```
