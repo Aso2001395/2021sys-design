@@ -20,9 +20,9 @@ entity "顧客マスタ" as customer {
         mail
         del_flag
         reg_date
- }
-    
-entity "顧客" as cust {
+}
+
+entity "購入テーブル" as customer {
         + customer_code [PK]
         --
         pass
@@ -32,9 +32,42 @@ entity "顧客" as cust {
         mail
         del_flag
         reg_date
-    }
-    
-    
-    
+}
+
+entity "購入詳細テーブル" as customer {
+        + customer_code [PK]
+        --
+        pass
+        name
+        address
+        tel
+        mail
+        del_flag
+        reg_date
+}
+
+entity "商品マスタ" as customer {
+        + customer_code [PK]
+        --
+        pass
+        name
+        address
+        tel
+        mail
+        del_flag
+        reg_date
+}
+
+entity "カテゴリマスタ" as customer {
+        + customer_code [PK]
+        --
+        pass
+        name
+        address
+        tel
+        mail
+        del_flag
+        reg_date
+}
 @enduml
 ```
