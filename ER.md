@@ -4,7 +4,11 @@
 !define MASTER_MARK_COLOR Orange 
 !define TRANSACTION_MARK_COLOR DeepSkyBlue
 
-
+skinparam class {
+    BackgroundColor Snow
+    BorderColor Black
+    ArrowColor Black
+}
 
 package "ECサイト" as target_system {
 
