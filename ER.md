@@ -27,13 +27,5 @@ package "ECサイト" as target_system {
         reg_date
     }
     
-    entity "顧客マスタ" as customer <d_purchase> <<T,TRANSACTION_MARK_COLOR>> {
-        + order_id [PK]
-        --
-        customer_code [FK]
-        purchase_date
-        total_price
-    }
-    
 @enduml
 ```
