@@ -30,7 +30,7 @@ entity "購入テーブル" as order {
         total_price
 }
 
-entity "購入詳細テーブル" as order_datail {
+entity "購入詳細テーブル" as order_detail {
         + order_id [PK]
         + detail_id [PK]
         --
