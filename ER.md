@@ -22,7 +22,7 @@ entity "顧客マスタ" as customer {
         reg_date
  }
     
-entity "顧客マスタ" as customer {
+entity "顧客" as cust {
         + customer_code [PK]
         --
         pass
