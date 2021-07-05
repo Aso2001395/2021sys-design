@@ -10,9 +10,19 @@ skinparam class {
     ArrowColor Black
 }
 
-
-
-    entity "顧客マスタ" as customer {
+entity "顧客マスタ" as customer {
+        + customer_code [PK]
+        --
+        pass
+        name
+        address
+        tel
+        mail
+        del_flag
+        reg_date
+    }
+    
+entity "顧客マスタ" as customer {
         + customer_code [PK]
         --
         pass
