@@ -1,5 +1,5 @@
 ```startuml
-@startuml tables
+@startuml
 
 !define MASTER_MARK_COLOR Orange 
 !define TRANSACTION_MARK_COLOR DeepSkyBlue
@@ -57,5 +57,11 @@ entity "カテゴリマスタ" as category {
         name
         reg_date
 }
+
+customer ||-o{ order
+order ||-o{ order_detail
+order_detail ||-o| item
+item ||-o{ category
+
 @enduml
 ```
