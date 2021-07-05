@@ -20,7 +20,7 @@ entity "顧客マスタ" as customer {
         mail
         del_flag
         reg_date
-    }
+ }
     
 entity "顧客マスタ" as customer {
         + customer_code [PK]
