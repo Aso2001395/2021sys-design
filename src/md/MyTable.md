@@ -15,12 +15,12 @@ package "ECサイト" as target_system {
 entity "顧客マスタ" as customer <m_customers> <<M,MASTER_MARK_COLOR>> {
         + customer_code [PK]
         --
-        pass
         name
-        address
-        tel
         mail
+        tell
+        address
         card_code
+        pass
         del_flag
         reg_date
 }
@@ -28,18 +28,10 @@ entity "顧客マスタ" as customer <m_customers> <<M,MASTER_MARK_COLOR>> {
 entity "購入テーブル" as order <d_purchase> <<T,TRANSACTION_MARK_COLOR>>{
         + order_id [PK]
         --
-        customer_code [FK]
+        customer_code
+        item_code
         purchase_date
-        total_price
-}
-
-entity "購入詳細テーブル" as order_detail <d_purchase_detail> <<T,TRANSACTION_MARK_COLOR>>{
-        + order_id [PK]
-        + detail_id [PK]
-        --
-        item_id [FK]
         price
-        num
 }
 
 entity "商品マスタ" as item <m_items> <<M,MASTER_MARK_COLOR>> {
@@ -54,8 +46,7 @@ entity "商品マスタ" as item <m_items> <<M,MASTER_MARK_COLOR>> {
 }
 
 customer |o-o{ order
-order ||-|{ order_detail
-order_detail }-|| item
+order ||-|{ item
 
 @enduml
 ```
