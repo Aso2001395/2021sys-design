@@ -26,7 +26,7 @@
 |電話番号|tel|varchar(20)|-|〇|-|
 |送信先住所|address|varchar(100)|-|〇|-|
 |カード番号|card_code|verchar(20)|-|〇|-|
-|パスワード|pass|varchar(50)|〇|〇|〇|
+|パスワード|pass|varchar(50)|-|〇|-|
 |削除フラグ|del_flag|int(1)|-|-|-|
 |登録日|reg_date|date|-|〇|-|
 
