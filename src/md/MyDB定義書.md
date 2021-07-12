@@ -2,7 +2,7 @@
 
 ## ER図
 
-[ER図はこちら]()
+[ER図はこちら](https://github.com/Aso2001395/2021sys-design/blob/main/src/md/MyTable.md)
 
 # DBデータカラム詳細一覧
 
