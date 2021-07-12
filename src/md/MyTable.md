@@ -46,7 +46,7 @@ entity "商品マスタ" as item <m_items> <<M,MASTER_MARK_COLOR>> {
 }
 
 customer |-|{ order
-order }|-| item
+order }|- item
 
 @enduml
 ```
