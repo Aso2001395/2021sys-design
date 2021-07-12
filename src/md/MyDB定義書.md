@@ -11,8 +11,8 @@
 |和名|項目名|型|PK|NN|FK|
 |----|------|--|--|--|--|
 |オーダーID|order_id|bigint(20)|〇|〇|-|
-|顧客コード|customer_code|varchar(50)|-|〇|-|
-|商品コード|item_code|int(11)|-|〇|-|
+|顧客コード|customer_code|varchar(50)|-|〇|〇|
+|商品コード|item_code|int(11)|-|〇|〇|
 |購入日|purchase_date|date|-|〇|-|
 |金額|price|int(11)|-|〇|-|
 
