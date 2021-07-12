@@ -20,6 +20,7 @@ entity "顧客マスタ" as customer <m_customers> <<M,MASTER_MARK_COLOR>> {
         address
         tel
         mail
+        card_code
         del_flag
         reg_date
 }
@@ -46,7 +47,6 @@ entity "商品マスタ" as item <m_items> <<M,MASTER_MARK_COLOR>> {
         --
         item_name
         price
-        category_id [FK]
         image
         detail
         del_flag
